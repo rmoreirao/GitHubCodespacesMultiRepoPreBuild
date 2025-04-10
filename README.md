@@ -1,3 +1,7 @@
+# Diagram
+
+![Diagram](diagram.drawio.png)
+
 # 1) Add permissions to the devcontainer
 
 # 2) Git clone the repo
