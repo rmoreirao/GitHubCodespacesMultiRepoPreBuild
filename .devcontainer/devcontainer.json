@@ -1,0 +1,35 @@
+{
+    "customizations": {
+    "codespaces": {
+      "repositories": {
+        "rmoreiraoghe4organization/TestSignedCommits": {
+          "permissions": {
+            "contents": "write",
+            "metadata": "read",
+            "pull_requests": "write",
+            "actions": "write",
+            "administration": "write",
+            "checks": "write",
+            "deployments": "write",
+            "issues": "write",
+            "packages": "read"
+          }
+        },
+        "rmoreiraoghe4organization/TestUserGitHubApp": {
+          "permissions": {
+            "contents": "write",
+            "metadata": "read",
+            "pull_requests": "write",
+            "actions": "write",
+            "administration": "write",
+            "checks": "write",
+            "deployments": "write",
+            "issues": "write",
+            "packages": "read"
+          }
+        }
+      }
+    }
+  },
+  "postCreateCommand": "bash clone-repos.sh"
+}
